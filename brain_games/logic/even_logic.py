@@ -1,6 +1,6 @@
+from brain_games.cli import welcome_user
 from random import randint
 from prompt import string
-from brain_games.cli import welcome_user
 
 
 def is_even(number):
@@ -18,7 +18,7 @@ def even():
 
     while count != 3:
         random_number = randint(1, 101)
-        answer = string(f'Question: {random_number} ').lower()
+        answer = string(f'Question: {random_number}, Answer: ').lower()
         print(f'Your answer: {answer}')
 
         if is_even(random_number) == answer:
@@ -30,4 +30,3 @@ def even():
             count = 0
 
     print(f'Congratulations, {name}!')
-
