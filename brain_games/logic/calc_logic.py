@@ -31,7 +31,7 @@ def calc():
             print('Correct!')
             count += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{evalu}'. Let's"
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{evalu}'. \nLet's"
                   f"try again, {name}")
             count = 0
 
