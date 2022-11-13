@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from brain_games.logic.calc_logic import calc
+from brain_games.logic.calc_logic import logic
 
 
 def main():
-    calc()
+    logic()
 
 
 if __name__ == '__main__':

@@ -12,7 +12,7 @@ def calculation(first_number, second_number, operation):
         return str(first_number * second_number)
 
 
-def calc():
+def logic():
     name = welcome_user()
     count = 0
 
@@ -22,16 +22,16 @@ def calc():
         first_number = randint(1, 40)
         second_number = randint(1, 40)
         operation = ['+', '-', '*'][randint(0, 2)]
-        evalu = calculation(first_number, second_number, operation)
+        answer = calculation(first_number, second_number, operation)
 
-        answer = string(f"Question: {first_number} {operation} {second_number}, Answer: ")
+        your_answer = string(f"Question: {first_number} {operation} {second_number}, Answer: ")
         print(f'Your answer: {answer}')
 
-        if evalu == answer:
+        if your_answer == answer:
             print('Correct!')
             count += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{evalu}'. \nLet's"
+            print(f"'{your_answer}' is wrong answer ;(. Correct answer was '{answer}'. \nLet's"
                   f"try again, {name}")
             count = 0
 

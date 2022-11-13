@@ -10,7 +10,7 @@ def is_even(number):
         return 'no'
 
 
-def even():
+def logic():
     name = welcome_user()
     count = 0
 
@@ -18,10 +18,11 @@ def even():
 
     while count != 3:
         random_number = randint(1, 101)
-        answer = string(f'Question: {random_number}, Answer: ').lower()
-        print(f'Your answer: {answer}')
+        answer = is_even(random_number)
+        your_answer = string(f'Question: {random_number}, Answer: ').lower()
+        print(f'Your answer: {your_answer}')
 
-        if is_even(random_number) == answer:
+        if your_answer == answer:
             print('Correct!')
             count += 1
         else:

@@ -23,16 +23,16 @@ def logic():
     while count != 3:
         first_number = randint(0, 100)
         second_number = randint(0, 100)
-        max_common_divider = gcd(first_number, second_number)
+        answer = gcd(first_number, second_number)
 
-        answer = string(f"Question: {first_number} {second_number}, Answer: ")
+        your_answer = string(f"Question: {first_number} {second_number}, Answer: ")
         print(f'Your answer: {answer}')
 
-        if max_common_divider == answer:
+        if your_answer == answer:
             print('Correct!')
             count += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{max_common_divider}'. \nLet's"
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{your_answer}'. \nLet's"
                   f"try again, {name}")
             count = 0
 

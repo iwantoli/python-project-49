@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 from brain_games.logic.gcd_logic import logic
 
 
