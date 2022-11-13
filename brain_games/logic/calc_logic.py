@@ -3,7 +3,7 @@ from random import randint
 from prompt import string
 
 
-def evaluation(first_number, second_number, operation):
+def calculation(first_number, second_number, operation):
     if operation == '+':
         return str(first_number + second_number)
     elif operation == '-':
@@ -22,16 +22,16 @@ def calc():
         first_number = randint(1, 40)
         second_number = randint(1, 40)
         operation = ['+', '-', '*'][randint(0, 2)]
-        evalution = evaluation(first_number, second_number, operation)
+        evalu = calculation(first_number, second_number, operation)
 
-        answer = string(f'Question: {first_number} {operation} {second_number}, Answer: ')
+        answer = string(f"Question: {first_number} {operation} {second_number}, Answer: ")
         print(f'Your answer: {answer}')
 
-        if evalution == answer:
+        if evalu == answer:
             print('Correct!')
             count += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{evalution}'. Let's "
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{evalu}'. Let's"
                   f"try again, {name}")
             count = 0
 
