@@ -21,18 +21,18 @@ def logic():
     print('Find the greatest common divisor of given numbers.')
 
     while count != 3:
-        first_number = randint(0, 100)
-        second_number = randint(0, 100)
+        first_number = randint(1, 100)
+        second_number = randint(1, 100)
         answer = gcd(first_number, second_number)
 
         your_answer = string(f"Question: {first_number} {second_number}, Answer: ")
-        print(f'Your answer: {answer}')
+        print(f'Your answer: {your_answer}')
 
         if your_answer == answer:
             print('Correct!')
             count += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{your_answer}'. \nLet's"
+            print(f"'{your_answer}' is wrong answer ;(. Correct answer was '{answer}'. \nLet's"
                   f"try again, {name}")
             count = 0
 
