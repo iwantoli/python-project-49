@@ -19,7 +19,7 @@ def logic():
     while count != 3:
         random_number = randint(1, 101)
         answer = is_even(random_number)
-        your_answer = string(f'Question: {random_number}, Answer: ').lower()
+        your_answer = string(f"Question: {random_number} ").lower()
         print(f'Your answer: {your_answer}')
 
         if your_answer == answer:

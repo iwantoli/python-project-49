@@ -25,7 +25,7 @@ def logic():
         number = randint(1, 200)
         answer = prime(number)
 
-        your_answer = string(f'Question: {number}, Answer: ').lower()
+        your_answer = string(f"Question: {number} ").lower()
         print(f'Your answer: {your_answer}')
 
         if your_answer == answer:

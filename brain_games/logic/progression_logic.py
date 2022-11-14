@@ -39,7 +39,7 @@ def logic():
         rand_index = randint(0, len(prog) - 1)
         answer = str(change(prog, rand_index))
 
-        your_answer = string(f'Question: {print_prog(prog)}, Answer: ')
+        your_answer = string(f"Question: {print_prog(prog)} ")
         print(f'Your answer: {your_answer}')
 
         if your_answer == answer:

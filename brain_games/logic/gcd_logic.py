@@ -25,7 +25,7 @@ def logic():
         second_number = randint(1, 100)
         answer = gcd(first_number, second_number)
 
-        your_answer = string(f"Question: {first_number} {second_number}, Answer: ")
+        your_answer = string(f"Question: {first_number} {second_number} ")
         print(f'Your answer: {your_answer}')
 
         if your_answer == answer:

@@ -24,7 +24,7 @@ def logic():
         operation = ['+', '-', '*'][randint(0, 2)]
         answer = calculation(first_number, second_number, operation)
 
-        your_answer = string(f"Question: {first_number} {operation} {second_number}, Answer: ")
+        your_answer = string(f"Question: {first_number} {operation} {second_number} ")
         print(f'Your answer: {answer}')
 
         if your_answer == answer:
