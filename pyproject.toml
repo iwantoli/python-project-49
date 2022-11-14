@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "brain-code"
+name = "hexlet-code"
 version = "0.1.0"
 description = ""
 authors = ["nikita <xdoku@yandex.ru>"]
