@@ -14,7 +14,7 @@ def logic():
     name = welcome_user()
     count = 0
 
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
     while count != 3:
         random_number = randint(1, 101)
