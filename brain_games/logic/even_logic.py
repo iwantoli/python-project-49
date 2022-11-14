@@ -26,7 +26,7 @@ def logic():
             print('Correct!')
             count += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{is_even(random_number)}'. Let's "
+            print(f"'{your_answer}' is wrong answer ;(. Correct answer was '{is_even(random_number)}'. Let's "
                   f"try again, {name}")
             count = 0
 
