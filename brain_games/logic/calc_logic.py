@@ -31,8 +31,8 @@ def logic():
             print('Correct!')
             count += 1
         else:
-            print(f"'{your_answer}' is wrong answer ;(. Correct answer was '{answer}'. \nLet's"
-                  f"try again, {name}")
+            print(f"'{your_answer}' is wrong answer ;(. Correct answer was '{answer}'.\nLet's"
+                  f"try again, {name}!")
             count = 0
 
     print(f'Congratulations, {name}!')
