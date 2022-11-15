@@ -24,9 +24,9 @@ def course_game(game):
             print('Correct!')
             count += 1
         else:
-            print(f"'{ans}' is wrong answer ;(. Correct answer was '{correct_answer}'")
+            print(f"'{ans}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'")
             print("Let's "f"try again, {name}!")
             break
     else:
         print(f'Congratulations, {name}!')
-
