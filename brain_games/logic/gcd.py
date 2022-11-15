@@ -7,7 +7,7 @@ def gcd(first_number, second_number):
     min_number = min(first_number, second_number)
     max_divider = 0
 
-    for divider in range(1, min_number):
+    for divider in range(1, min_number + 1):
         if first_number % divider == 0 and second_number % divider == 0:
             max_divider = max(max_divider, divider)
 
