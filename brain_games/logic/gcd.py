@@ -21,5 +21,3 @@ def logic():
     correct_answer = gcd(first_number, second_number)
     question = f'{first_number} {second_number}'
     return correct_answer, question
-
-

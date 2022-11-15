@@ -36,6 +36,3 @@ def logic():
     question = f'Question: {print_prog(prog)}'
 
     return correct_answer, question
-
-
-

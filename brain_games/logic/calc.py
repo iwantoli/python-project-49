@@ -21,6 +21,3 @@ def logic():
     correct_answer = calculation(first_number, second_number, operation)
     question = f'{first_number} {operation} {second_number}'
     return correct_answer, question
-
-
-

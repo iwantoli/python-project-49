@@ -16,6 +16,3 @@ def logic():
     correct_answer = even(random_number)
     question = f'{random_number}'
     return correct_answer, question
-
-
-

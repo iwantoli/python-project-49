@@ -22,6 +22,3 @@ def logic():
     question = f'{number}'
 
     return correct_answer, question
-
-
-

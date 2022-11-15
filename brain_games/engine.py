@@ -26,6 +26,7 @@ def course_game(game):
         else:
             print(f"'{ans}' is wrong answer ;(. Correct answer was '{correct_answer}'")
             print("Let's "f"try again, {name}!")
-            count = 0
+            break
+    else:
+        print(f'Congratulations, {name}!')
 
-    print(f'Congratulations, {name}!')
